@@ -1,16 +1,836 @@
 {
+  "problems": [
+    "extraneous: @mongodb-js/saslprep@1.1.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/@mongodb-js/saslprep",
+    "extraneous: @types/node@20.11.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/@types/node",
+    "extraneous: @types/webidl-conversions@7.0.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/@types/webidl-conversions",
+    "extraneous: @types/whatwg-url@8.2.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/@types/whatwg-url",
+    "extraneous: accepts@1.3.8 /Users/mariaperez-serrabona/Practica7/src/node_modules/accepts",
+    "extraneous: array-flatten@1.1.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/array-flatten",
+    "extraneous: body-parser@1.20.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/body-parser",
+    "extraneous: bson@6.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/bson",
+    "extraneous: bytes@3.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/bytes",
+    "extraneous: call-bind@1.0.5 /Users/mariaperez-serrabona/Practica7/src/node_modules/call-bind",
+    "extraneous: content-disposition@0.5.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/content-disposition",
+    "extraneous: content-type@1.0.5 /Users/mariaperez-serrabona/Practica7/src/node_modules/content-type",
+    "extraneous: cookie-signature@1.0.6 /Users/mariaperez-serrabona/Practica7/src/node_modules/cookie-signature",
+    "extraneous: cookie@0.5.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/cookie",
+    "extraneous: debug@2.6.9 /Users/mariaperez-serrabona/Practica7/src/node_modules/debug",
+    "extraneous: define-data-property@1.1.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/define-data-property",
+    "extraneous: depd@2.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/depd",
+    "extraneous: destroy@1.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/destroy",
+    "extraneous: dotenv@16.3.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/dotenv",
+    "extraneous: ee-first@1.1.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/ee-first",
+    "extraneous: encodeurl@1.0.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/encodeurl",
+    "extraneous: escape-html@1.0.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/escape-html",
+    "extraneous: etag@1.8.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/etag",
+    "extraneous: express@4.18.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/express",
+    "extraneous: finalhandler@1.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/finalhandler",
+    "extraneous: forwarded@0.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/forwarded",
+    "extraneous: fresh@0.5.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/fresh",
+    "extraneous: function-bind@1.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/function-bind",
+    "extraneous: get-intrinsic@1.2.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/get-intrinsic",
+    "extraneous: gopd@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/gopd",
+    "extraneous: has-property-descriptors@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/has-property-descriptors",
+    "extraneous: has-proto@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/has-proto",
+    "extraneous: has-symbols@1.0.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/has-symbols",
+    "extraneous: hasown@2.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/hasown",
+    "extraneous: http-errors@2.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/http-errors",
+    "extraneous: iconv-lite@0.4.24 /Users/mariaperez-serrabona/Practica7/src/node_modules/iconv-lite",
+    "extraneous: inherits@2.0.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/inherits",
+    "extraneous: ipaddr.js@1.9.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/ipaddr.js",
+    "extraneous: kareem@2.5.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/kareem",
+    "extraneous: media-typer@0.3.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/media-typer",
+    "extraneous: memory-pager@1.5.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/memory-pager",
+    "extraneous: merge-descriptors@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/merge-descriptors",
+    "extraneous: methods@1.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/methods",
+    "extraneous: mime-db@1.52.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mime-db",
+    "extraneous: mime-types@2.1.35 /Users/mariaperez-serrabona/Practica7/src/node_modules/mime-types",
+    "extraneous: mime@1.6.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mime",
+    "extraneous: mongodb-connection-string-url@2.6.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mongodb-connection-string-url",
+    "extraneous: mongodb@6.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mongodb",
+    "extraneous: mongoose@8.0.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/mongoose",
+    "extraneous: mpath@0.9.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mpath",
+    "extraneous: mquery@5.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mquery",
+    "extraneous: ms@2.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/ms",
+    "extraneous: negotiator@0.6.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/negotiator",
+    "extraneous: object-inspect@1.13.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/object-inspect",
+    "extraneous: on-finished@2.4.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/on-finished",
+    "extraneous: parseurl@1.3.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/parseurl",
+    "extraneous: path-to-regexp@0.1.7 /Users/mariaperez-serrabona/Practica7/src/node_modules/path-to-regexp",
+    "extraneous: proxy-addr@2.0.7 /Users/mariaperez-serrabona/Practica7/src/node_modules/proxy-addr",
+    "extraneous: punycode@2.3.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/punycode",
+    "extraneous: qs@6.11.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/qs",
+    "extraneous: range-parser@1.2.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/range-parser",
+    "extraneous: raw-body@2.5.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/raw-body",
+    "extraneous: safe-buffer@5.2.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/safe-buffer",
+    "extraneous: safer-buffer@2.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/safer-buffer",
+    "extraneous: send@0.18.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/send",
+    "extraneous: serve-static@1.15.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/serve-static",
+    "extraneous: set-function-length@1.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/set-function-length",
+    "extraneous: setprototypeof@1.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/setprototypeof",
+    "extraneous: side-channel@1.0.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/side-channel",
+    "extraneous: sift@16.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/sift",
+    "extraneous: sparse-bitfield@3.0.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/sparse-bitfield",
+    "extraneous: statuses@2.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/statuses",
+    "extraneous: toidentifier@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/toidentifier",
+    "extraneous: tr46@3.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/tr46",
+    "extraneous: type-is@1.6.18 /Users/mariaperez-serrabona/Practica7/src/node_modules/type-is",
+    "extraneous: undici-types@5.26.5 /Users/mariaperez-serrabona/Practica7/src/node_modules/undici-types",
+    "extraneous: unpipe@1.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/unpipe",
+    "extraneous: utils-merge@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/utils-merge",
+    "extraneous: vary@1.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/vary",
+    "extraneous: webidl-conversions@7.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/webidl-conversions",
+    "extraneous: whatwg-url@11.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/whatwg-url",
+    "error in /Users/mariaperez-serrabona/Practica7/src: Failed to parse root package.json"
+  ],
+  "invalid": true,
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "@mongodb-js/saslprep": {
+      "version": "1.1.4",
+      "resolved": "https://registry.npmjs.org/@mongodb-js/saslprep/-/saslprep-1.1.4.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @mongodb-js/saslprep@1.1.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/@mongodb-js/saslprep"
+      ]
+    },
+    "@types/node": {
+      "version": "20.11.2",
+      "resolved": "https://registry.npmjs.org/@types/node/-/node-20.11.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @types/node@20.11.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/@types/node"
+      ]
+    },
+    "@types/webidl-conversions": {
+      "version": "7.0.3",
+      "resolved": "https://registry.npmjs.org/@types/webidl-conversions/-/webidl-conversions-7.0.3.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @types/webidl-conversions@7.0.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/@types/webidl-conversions"
+      ]
+    },
+    "@types/whatwg-url": {
+      "version": "8.2.2",
+      "resolved": "https://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-8.2.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: @types/whatwg-url@8.2.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/@types/whatwg-url"
+      ]
+    },
+    "accepts": {
+      "version": "1.3.8",
+      "resolved": "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: accepts@1.3.8 /Users/mariaperez-serrabona/Practica7/src/node_modules/accepts"
+      ]
+    },
+    "array-flatten": {
+      "version": "1.1.1",
+      "resolved": "https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: array-flatten@1.1.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/array-flatten"
+      ]
+    },
+    "body-parser": {
+      "version": "1.20.1",
+      "resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.20.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: body-parser@1.20.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/body-parser"
+      ]
+    },
+    "bson": {
+      "version": "6.2.0",
+      "resolved": "https://registry.npmjs.org/bson/-/bson-6.2.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: bson@6.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/bson"
+      ]
+    },
+    "bytes": {
+      "version": "3.1.2",
+      "resolved": "https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: bytes@3.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/bytes"
+      ]
+    },
+    "call-bind": {
+      "version": "1.0.5",
+      "resolved": "https://registry.npmjs.org/call-bind/-/call-bind-1.0.5.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: call-bind@1.0.5 /Users/mariaperez-serrabona/Practica7/src/node_modules/call-bind"
+      ]
+    },
+    "content-disposition": {
+      "version": "0.5.4",
+      "resolved": "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: content-disposition@0.5.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/content-disposition"
+      ]
+    },
+    "content-type": {
+      "version": "1.0.5",
+      "resolved": "https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: content-type@1.0.5 /Users/mariaperez-serrabona/Practica7/src/node_modules/content-type"
+      ]
+    },
+    "cookie-signature": {
+      "version": "1.0.6",
+      "resolved": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: cookie-signature@1.0.6 /Users/mariaperez-serrabona/Practica7/src/node_modules/cookie-signature"
+      ]
+    },
+    "cookie": {
+      "version": "0.5.0",
+      "resolved": "https://registry.npmjs.org/cookie/-/cookie-0.5.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: cookie@0.5.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/cookie"
+      ]
+    },
+    "debug": {
+      "version": "2.6.9",
+      "resolved": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: debug@2.6.9 /Users/mariaperez-serrabona/Practica7/src/node_modules/debug"
+      ]
+    },
+    "define-data-property": {
+      "version": "1.1.1",
+      "resolved": "https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: define-data-property@1.1.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/define-data-property"
+      ]
+    },
+    "depd": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: depd@2.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/depd"
+      ]
+    },
+    "destroy": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: destroy@1.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/destroy"
+      ]
+    },
+    "dotenv": {
+      "version": "16.3.1",
+      "resolved": "https://registry.npmjs.org/dotenv/-/dotenv-16.3.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: dotenv@16.3.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/dotenv"
+      ]
+    },
+    "ee-first": {
+      "version": "1.1.1",
+      "resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: ee-first@1.1.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/ee-first"
+      ]
+    },
+    "encodeurl": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: encodeurl@1.0.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/encodeurl"
+      ]
+    },
+    "escape-html": {
+      "version": "1.0.3",
+      "resolved": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: escape-html@1.0.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/escape-html"
+      ]
+    },
+    "etag": {
+      "version": "1.8.1",
+      "resolved": "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: etag@1.8.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/etag"
+      ]
+    },
+    "express": {
+      "version": "4.18.2",
+      "resolved": "https://registry.npmjs.org/express/-/express-4.18.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: express@4.18.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/express"
+      ]
+    },
+    "finalhandler": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/finalhandler/-/finalhandler-1.2.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: finalhandler@1.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/finalhandler"
+      ]
+    },
+    "forwarded": {
+      "version": "0.2.0",
+      "resolved": "https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: forwarded@0.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/forwarded"
+      ]
+    },
+    "fresh": {
+      "version": "0.5.2",
+      "resolved": "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: fresh@0.5.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/fresh"
+      ]
+    },
+    "function-bind": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: function-bind@1.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/function-bind"
+      ]
+    },
+    "get-intrinsic": {
+      "version": "1.2.2",
+      "resolved": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: get-intrinsic@1.2.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/get-intrinsic"
+      ]
+    },
+    "gopd": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/gopd/-/gopd-1.0.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: gopd@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/gopd"
+      ]
+    },
+    "has-property-descriptors": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: has-property-descriptors@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/has-property-descriptors"
+      ]
+    },
+    "has-proto": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: has-proto@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/has-proto"
+      ]
+    },
+    "has-symbols": {
+      "version": "1.0.3",
+      "resolved": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: has-symbols@1.0.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/has-symbols"
+      ]
+    },
+    "hasown": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/hasown/-/hasown-2.0.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: hasown@2.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/hasown"
+      ]
+    },
+    "http-errors": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: http-errors@2.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/http-errors"
+      ]
+    },
+    "iconv-lite": {
+      "version": "0.4.24",
+      "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: iconv-lite@0.4.24 /Users/mariaperez-serrabona/Practica7/src/node_modules/iconv-lite"
+      ]
+    },
+    "inherits": {
+      "version": "2.0.4",
+      "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: inherits@2.0.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/inherits"
+      ]
+    },
+    "ipaddr.js": {
+      "version": "1.9.1",
+      "resolved": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: ipaddr.js@1.9.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/ipaddr.js"
+      ]
+    },
+    "kareem": {
+      "version": "2.5.1",
+      "resolved": "https://registry.npmjs.org/kareem/-/kareem-2.5.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: kareem@2.5.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/kareem"
+      ]
+    },
+    "media-typer": {
+      "version": "0.3.0",
+      "resolved": "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: media-typer@0.3.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/media-typer"
+      ]
+    },
+    "memory-pager": {
+      "version": "1.5.0",
+      "resolved": "https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: memory-pager@1.5.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/memory-pager"
+      ]
+    },
+    "merge-descriptors": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: merge-descriptors@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/merge-descriptors"
+      ]
+    },
+    "methods": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: methods@1.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/methods"
+      ]
+    },
+    "mime-db": {
+      "version": "1.52.0",
+      "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: mime-db@1.52.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mime-db"
+      ]
+    },
+    "mime-types": {
+      "version": "2.1.35",
+      "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: mime-types@2.1.35 /Users/mariaperez-serrabona/Practica7/src/node_modules/mime-types"
+      ]
+    },
+    "mime": {
+      "version": "1.6.0",
+      "resolved": "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: mime@1.6.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mime"
+      ]
+    },
+    "mongodb-connection-string-url": {
+      "version": "2.6.0",
+      "resolved": "https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-2.6.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: mongodb-connection-string-url@2.6.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mongodb-connection-string-url"
+      ]
+    },
+    "mongodb": {
+      "version": "6.2.0",
+      "resolved": "https://registry.npmjs.org/mongodb/-/mongodb-6.2.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: mongodb@6.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mongodb"
+      ]
+    },
+    "mongoose": {
+      "version": "8.0.4",
+      "resolved": "https://registry.npmjs.org/mongoose/-/mongoose-8.0.4.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: mongoose@8.0.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/mongoose"
+      ]
+    },
+    "mpath": {
+      "version": "0.9.0",
+      "resolved": "https://registry.npmjs.org/mpath/-/mpath-0.9.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: mpath@0.9.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mpath"
+      ]
+    },
+    "mquery": {
+      "version": "5.0.0",
+      "resolved": "https://registry.npmjs.org/mquery/-/mquery-5.0.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: mquery@5.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/mquery"
+      ]
+    },
+    "ms": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: ms@2.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/ms"
+      ]
+    },
+    "negotiator": {
+      "version": "0.6.3",
+      "resolved": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: negotiator@0.6.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/negotiator"
+      ]
+    },
+    "object-inspect": {
+      "version": "1.13.1",
+      "resolved": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: object-inspect@1.13.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/object-inspect"
+      ]
+    },
+    "on-finished": {
+      "version": "2.4.1",
+      "resolved": "https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: on-finished@2.4.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/on-finished"
+      ]
+    },
+    "parseurl": {
+      "version": "1.3.3",
+      "resolved": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: parseurl@1.3.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/parseurl"
+      ]
+    },
+    "path-to-regexp": {
+      "version": "0.1.7",
+      "resolved": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: path-to-regexp@0.1.7 /Users/mariaperez-serrabona/Practica7/src/node_modules/path-to-regexp"
+      ]
+    },
+    "proxy-addr": {
+      "version": "2.0.7",
+      "resolved": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: proxy-addr@2.0.7 /Users/mariaperez-serrabona/Practica7/src/node_modules/proxy-addr"
+      ]
+    },
+    "punycode": {
+      "version": "2.3.1",
+      "resolved": "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: punycode@2.3.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/punycode"
+      ]
+    },
+    "qs": {
+      "version": "6.11.0",
+      "resolved": "https://registry.npmjs.org/qs/-/qs-6.11.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: qs@6.11.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/qs"
+      ]
+    },
+    "range-parser": {
+      "version": "1.2.1",
+      "resolved": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: range-parser@1.2.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/range-parser"
+      ]
+    },
+    "raw-body": {
+      "version": "2.5.1",
+      "resolved": "https://registry.npmjs.org/raw-body/-/raw-body-2.5.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: raw-body@2.5.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/raw-body"
+      ]
+    },
+    "safe-buffer": {
+      "version": "5.2.1",
+      "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: safe-buffer@5.2.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/safe-buffer"
+      ]
+    },
+    "safer-buffer": {
+      "version": "2.1.2",
+      "resolved": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: safer-buffer@2.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/safer-buffer"
+      ]
+    },
+    "send": {
+      "version": "0.18.0",
+      "resolved": "https://registry.npmjs.org/send/-/send-0.18.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: send@0.18.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/send"
+      ]
+    },
+    "serve-static": {
+      "version": "1.15.0",
+      "resolved": "https://registry.npmjs.org/serve-static/-/serve-static-1.15.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: serve-static@1.15.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/serve-static"
+      ]
+    },
+    "set-function-length": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: set-function-length@1.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/set-function-length"
+      ]
+    },
+    "setprototypeof": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: setprototypeof@1.2.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/setprototypeof"
+      ]
+    },
+    "side-channel": {
+      "version": "1.0.4",
+      "resolved": "https://registry.npmjs.org/side-channel/-/side-channel-1.0.4.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: side-channel@1.0.4 /Users/mariaperez-serrabona/Practica7/src/node_modules/side-channel"
+      ]
+    },
+    "sift": {
+      "version": "16.0.1",
+      "resolved": "https://registry.npmjs.org/sift/-/sift-16.0.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: sift@16.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/sift"
+      ]
+    },
+    "sparse-bitfield": {
+      "version": "3.0.3",
+      "resolved": "https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: sparse-bitfield@3.0.3 /Users/mariaperez-serrabona/Practica7/src/node_modules/sparse-bitfield"
+      ]
+    },
+    "statuses": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: statuses@2.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/statuses"
+      ]
+    },
+    "toidentifier": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: toidentifier@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/toidentifier"
+      ]
+    },
+    "tr46": {
+      "version": "3.0.0",
+      "resolved": "https://registry.npmjs.org/tr46/-/tr46-3.0.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: tr46@3.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/tr46"
+      ]
+    },
+    "type-is": {
+      "version": "1.6.18",
+      "resolved": "https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: type-is@1.6.18 /Users/mariaperez-serrabona/Practica7/src/node_modules/type-is"
+      ]
+    },
+    "undici-types": {
+      "version": "5.26.5",
+      "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: undici-types@5.26.5 /Users/mariaperez-serrabona/Practica7/src/node_modules/undici-types"
+      ]
+    },
+    "unpipe": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: unpipe@1.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/unpipe"
+      ]
+    },
+    "utils-merge": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: utils-merge@1.0.1 /Users/mariaperez-serrabona/Practica7/src/node_modules/utils-merge"
+      ]
+    },
+    "vary": {
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: vary@1.1.2 /Users/mariaperez-serrabona/Practica7/src/node_modules/vary"
+      ]
+    },
+    "webidl-conversions": {
+      "version": "7.0.0",
+      "resolved": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: webidl-conversions@7.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/webidl-conversions"
+      ]
+    },
+    "whatwg-url": {
+      "version": "11.0.0",
+      "resolved": "https://registry.npmjs.org/whatwg-url/-/whatwg-url-11.0.0.tgz",
+      "overridden": false,
+      "extraneous": true,
+      "problems": [
+        "extraneous: whatwg-url@11.0.0 /Users/mariaperez-serrabona/Practica7/src/node_modules/whatwg-url"
+      ]
+    }
   },
-  "name": "src",
-  "version": "1.0.0",
-  "main": "index.js",
+  "error": {
+    "code": "EJSONPARSE",
+    "summary": "Failed to parse root package.json",
+    "detail": "Failed to parse JSON data.\nNote: package.json must be actual JSON, not just JavaScript."
+  },
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "build": "npm run compile && npm run minify",
+    "compile": "babel src -d dist",
+    "minify": "uglifyjs dist/*.js -o dist/bundle.min.js",
+    "test": "mocha"
+  }
+
 }
+
+
+
+
+
