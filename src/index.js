@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 // Configura el puerto del servidor
-const PORT = process.env.SERVER_PORT || 3000;
+const PORT = process.env.SERVER_PORT || 8090;
 
 // Ruta de ejemplo
 app.get('/', (req, res) => {
