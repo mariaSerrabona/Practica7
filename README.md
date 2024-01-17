@@ -46,7 +46,7 @@ Primero, es necesario activar el entorno de deesarrollo para poder instalar las 
 
 Una vez se tiene el entorno activo, se puede pasar a isntalar las dependencias necesarias para la puesta en marcha del proyecto. Si bien es cierto que este proyecto se ha desarrollado en un entorno macOS (mediante el gestionador de paquetes Brew) se deben seguir pasos similares para otros sistemas operativos.
 
-Para la instalación, ejecutar el siguiente comando en la terminal: 
+Para la instalación, ejecutar el siguiente comando en la terminal:
 ```bash
 pip install -r brew_dependencies.txt
 ```
